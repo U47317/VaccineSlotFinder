@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E406983E267D1B050089A55A /* DetailsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406982E267D1B050089A55A /* DetailsSelectionView.swift */; };
+		E406983F267D1B050089A55A /* DetailsSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406982E267D1B050089A55A /* DetailsSelectionView.swift */; };
+		E4069842267D1B050089A55A /* CowinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069831267D1B050089A55A /* CowinService.swift */; };
+		E4069843267D1B050089A55A /* CowinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069831267D1B050089A55A /* CowinService.swift */; };
+		E4069844267D1B050089A55A /* DistrictListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069832267D1B050089A55A /* DistrictListService.swift */; };
+		E4069845267D1B050089A55A /* DistrictListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069832267D1B050089A55A /* DistrictListService.swift */; };
+		E4069846267D1B050089A55A /* StateListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069833267D1B050089A55A /* StateListService.swift */; };
+		E4069847267D1B050089A55A /* StateListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069833267D1B050089A55A /* StateListService.swift */; };
+		E4069848267D1B050089A55A /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069835267D1B050089A55A /* Sessions.swift */; };
+		E4069849267D1B050089A55A /* Sessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069835267D1B050089A55A /* Sessions.swift */; };
+		E406984A267D1B050089A55A /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069836267D1B050089A55A /* States.swift */; };
+		E406984B267D1B050089A55A /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069836267D1B050089A55A /* States.swift */; };
+		E406984C267D1B050089A55A /* Districts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069837267D1B050089A55A /* Districts.swift */; };
+		E406984D267D1B050089A55A /* Districts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069837267D1B050089A55A /* Districts.swift */; };
+		E406984E267D1B050089A55A /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069839267D1B050089A55A /* Enumerations.swift */; };
+		E406984F267D1B050089A55A /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4069839267D1B050089A55A /* Enumerations.swift */; };
+		E4069850267D1B050089A55A /* StatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983B267D1B050089A55A /* StatesViewModel.swift */; };
+		E4069851267D1B050089A55A /* StatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983B267D1B050089A55A /* StatesViewModel.swift */; };
+		E4069852267D1B050089A55A /* DistrictsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983C267D1B050089A55A /* DistrictsViewModel.swift */; };
+		E4069853267D1B050089A55A /* DistrictsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983C267D1B050089A55A /* DistrictsViewModel.swift */; };
+		E4069854267D1B050089A55A /* CowinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983D267D1B050089A55A /* CowinViewModel.swift */; };
+		E4069855267D1B050089A55A /* CowinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E406983D267D1B050089A55A /* CowinViewModel.swift */; };
+		E40B51DC267EDFE4004B98FC /* SidebarMacOSCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B51DA267EDF7E004B98FC /* SidebarMacOSCommands.swift */; };
+		E40BE5D0267D16CE0004D1CB /* VaccineSlotFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BE5BD267D16CD0004D1CB /* VaccineSlotFinderApp.swift */; };
+		E40BE5D1267D16CE0004D1CB /* VaccineSlotFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BE5BD267D16CD0004D1CB /* VaccineSlotFinderApp.swift */; };
+		E40BE5D2267D16CE0004D1CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BE5BE267D16CD0004D1CB /* ContentView.swift */; };
+		E40BE5D3267D16CE0004D1CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40BE5BE267D16CD0004D1CB /* ContentView.swift */; };
+		E40BE5D4267D16CE0004D1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40BE5BF267D16CD0004D1CB /* Assets.xcassets */; };
+		E40BE5D5267D16CE0004D1CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40BE5BF267D16CD0004D1CB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E406982E267D1B050089A55A /* DetailsSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsSelectionView.swift; sourceTree = "<group>"; };
+		E4069831267D1B050089A55A /* CowinService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CowinService.swift; sourceTree = "<group>"; };
+		E4069832267D1B050089A55A /* DistrictListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictListService.swift; sourceTree = "<group>"; };
+		E4069833267D1B050089A55A /* StateListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateListService.swift; sourceTree = "<group>"; };
+		E4069835267D1B050089A55A /* Sessions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sessions.swift; sourceTree = "<group>"; };
+		E4069836267D1B050089A55A /* States.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		E4069837267D1B050089A55A /* Districts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Districts.swift; sourceTree = "<group>"; };
+		E4069839267D1B050089A55A /* Enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
+		E406983B267D1B050089A55A /* StatesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatesViewModel.swift; sourceTree = "<group>"; };
+		E406983C267D1B050089A55A /* DistrictsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistrictsViewModel.swift; sourceTree = "<group>"; };
+		E406983D267D1B050089A55A /* CowinViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CowinViewModel.swift; sourceTree = "<group>"; };
+		E40B51DA267EDF7E004B98FC /* SidebarMacOSCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarMacOSCommands.swift; sourceTree = "<group>"; };
+		E40BE5BD267D16CD0004D1CB /* VaccineSlotFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineSlotFinderApp.swift; sourceTree = "<group>"; };
+		E40BE5BE267D16CD0004D1CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E40BE5BF267D16CD0004D1CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E40BE5C4267D16CD0004D1CB /* VaccineSlotFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineSlotFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40BE5C7267D16CD0004D1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40BE5CC267D16CD0004D1CB /* VaccineSlotFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaccineSlotFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40BE5CE267D16CD0004D1CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40BE5CF267D16CE0004D1CB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40BE5C1267D16CD0004D1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BE5C9267D16CD0004D1CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E406982D267D1B050089A55A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E406982E267D1B050089A55A /* DetailsSelectionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E4069830267D1B050089A55A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E4069831267D1B050089A55A /* CowinService.swift */,
+				E4069832267D1B050089A55A /* DistrictListService.swift */,
+				E4069833267D1B050089A55A /* StateListService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E4069834267D1B050089A55A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E4069835267D1B050089A55A /* Sessions.swift */,
+				E4069836267D1B050089A55A /* States.swift */,
+				E4069837267D1B050089A55A /* Districts.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E4069838267D1B050089A55A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E4069839267D1B050089A55A /* Enumerations.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E406983A267D1B050089A55A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E406983B267D1B050089A55A /* StatesViewModel.swift */,
+				E406983C267D1B050089A55A /* DistrictsViewModel.swift */,
+				E406983D267D1B050089A55A /* CowinViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E40B51D9267EDF68004B98FC /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				E40B51DA267EDF7E004B98FC /* SidebarMacOSCommands.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		E40BE5B7267D16CD0004D1CB = {
+			isa = PBXGroup;
+			children = (
+				E40BE5BC267D16CD0004D1CB /* Shared */,
+				E40BE5C6267D16CD0004D1CB /* iOS */,
+				E40BE5CD267D16CD0004D1CB /* macOS */,
+				E40BE5C5267D16CD0004D1CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40BE5BC267D16CD0004D1CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E406982D267D1B050089A55A /* Views */,
+				E40BE5BD267D16CD0004D1CB /* VaccineSlotFinderApp.swift */,
+				E40B51D9267EDF68004B98FC /* Commands */,
+				E4069838267D1B050089A55A /* Helper */,
+				E4069834267D1B050089A55A /* Models */,
+				E4069830267D1B050089A55A /* Services */,
+				E406983A267D1B050089A55A /* ViewModels */,
+				E40BE5BE267D16CD0004D1CB /* ContentView.swift */,
+				E40BE5BF267D16CD0004D1CB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E40BE5C5267D16CD0004D1CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40BE5C4267D16CD0004D1CB /* VaccineSlotFinder.app */,
+				E40BE5CC267D16CD0004D1CB /* VaccineSlotFinder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40BE5C6267D16CD0004D1CB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E40BE5C7267D16CD0004D1CB /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E40BE5CD267D16CD0004D1CB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				E40BE5CE267D16CD0004D1CB /* Info.plist */,
+				E40BE5CF267D16CE0004D1CB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40BE5C3267D16CD0004D1CB /* VaccineSlotFinder (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40BE5D8267D16CE0004D1CB /* Build configuration list for PBXNativeTarget "VaccineSlotFinder (iOS)" */;
+			buildPhases = (
+				E40BE5C0267D16CD0004D1CB /* Sources */,
+				E40BE5C1267D16CD0004D1CB /* Frameworks */,
+				E40BE5C2267D16CD0004D1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VaccineSlotFinder (iOS)";
+			productName = "VaccineSlotFinder (iOS)";
+			productReference = E40BE5C4267D16CD0004D1CB /* VaccineSlotFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40BE5CB267D16CD0004D1CB /* VaccineSlotFinder (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40BE5DB267D16CE0004D1CB /* Build configuration list for PBXNativeTarget "VaccineSlotFinder (macOS)" */;
+			buildPhases = (
+				E40BE5C8267D16CD0004D1CB /* Sources */,
+				E40BE5C9267D16CD0004D1CB /* Frameworks */,
+				E40BE5CA267D16CD0004D1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VaccineSlotFinder (macOS)";
+			productName = "VaccineSlotFinder (macOS)";
+			productReference = E40BE5CC267D16CD0004D1CB /* VaccineSlotFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40BE5B8267D16CD0004D1CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E40BE5C3267D16CD0004D1CB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E40BE5CB267D16CD0004D1CB = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = E40BE5BB267D16CD0004D1CB /* Build configuration list for PBXProject "VaccineSlotFinder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40BE5B7267D16CD0004D1CB;
+			productRefGroup = E40BE5C5267D16CD0004D1CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40BE5C3267D16CD0004D1CB /* VaccineSlotFinder (iOS) */,
+				E40BE5CB267D16CD0004D1CB /* VaccineSlotFinder (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40BE5C2267D16CD0004D1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BE5D4267D16CE0004D1CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BE5CA267D16CD0004D1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40BE5D5267D16CE0004D1CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40BE5C0267D16CD0004D1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4069848267D1B050089A55A /* Sessions.swift in Sources */,
+				E406984C267D1B050089A55A /* Districts.swift in Sources */,
+				E40BE5D2267D16CE0004D1CB /* ContentView.swift in Sources */,
+				E4069844267D1B050089A55A /* DistrictListService.swift in Sources */,
+				E406983E267D1B050089A55A /* DetailsSelectionView.swift in Sources */,
+				E40BE5D0267D16CE0004D1CB /* VaccineSlotFinderApp.swift in Sources */,
+				E406984A267D1B050089A55A /* States.swift in Sources */,
+				E4069852267D1B050089A55A /* DistrictsViewModel.swift in Sources */,
+				E4069854267D1B050089A55A /* CowinViewModel.swift in Sources */,
+				E4069850267D1B050089A55A /* StatesViewModel.swift in Sources */,
+				E4069842267D1B050089A55A /* CowinService.swift in Sources */,
+				E4069846267D1B050089A55A /* StateListService.swift in Sources */,
+				E406984E267D1B050089A55A /* Enumerations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40BE5C8267D16CD0004D1CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4069849267D1B050089A55A /* Sessions.swift in Sources */,
+				E406984D267D1B050089A55A /* Districts.swift in Sources */,
+				E40BE5D3267D16CE0004D1CB /* ContentView.swift in Sources */,
+				E4069845267D1B050089A55A /* DistrictListService.swift in Sources */,
+				E40B51DC267EDFE4004B98FC /* SidebarMacOSCommands.swift in Sources */,
+				E406983F267D1B050089A55A /* DetailsSelectionView.swift in Sources */,
+				E40BE5D1267D16CE0004D1CB /* VaccineSlotFinderApp.swift in Sources */,
+				E406984B267D1B050089A55A /* States.swift in Sources */,
+				E4069853267D1B050089A55A /* DistrictsViewModel.swift in Sources */,
+				E4069855267D1B050089A55A /* CowinViewModel.swift in Sources */,
+				E4069851267D1B050089A55A /* StatesViewModel.swift in Sources */,
+				E4069843267D1B050089A55A /* CowinService.swift in Sources */,
+				E4069847267D1B050089A55A /* StateListService.swift in Sources */,
+				E406984F267D1B050089A55A /* Enumerations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E40BE5D6267D16CE0004D1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E40BE5D7267D16CE0004D1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E40BE5D9267D16CE0004D1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28NST496FL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunmohan.VaccineSlotFinder;
+				PRODUCT_NAME = VaccineSlotFinder;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40BE5DA267D16CE0004D1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28NST496FL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunmohan.VaccineSlotFinder;
+				PRODUCT_NAME = VaccineSlotFinder;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40BE5DC267D16CE0004D1CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28NST496FL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunmohan.VaccineSlotFinder;
+				PRODUCT_NAME = VaccineSlotFinder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E40BE5DD267D16CE0004D1CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 28NST496FL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunmohan.VaccineSlotFinder;
+				PRODUCT_NAME = VaccineSlotFinder;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40BE5BB267D16CD0004D1CB /* Build configuration list for PBXProject "VaccineSlotFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BE5D6267D16CE0004D1CB /* Debug */,
+				E40BE5D7267D16CE0004D1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40BE5D8267D16CE0004D1CB /* Build configuration list for PBXNativeTarget "VaccineSlotFinder (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BE5D9267D16CE0004D1CB /* Debug */,
+				E40BE5DA267D16CE0004D1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40BE5DB267D16CE0004D1CB /* Build configuration list for PBXNativeTarget "VaccineSlotFinder (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40BE5DC267D16CE0004D1CB /* Debug */,
+				E40BE5DD267D16CE0004D1CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40BE5B8267D16CD0004D1CB /* Project object */;
+}
